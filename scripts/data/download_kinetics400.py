@@ -1,10 +1,12 @@
-import os
 import sys
+from pathlib import Path
 
-if os.getcwd().endswith("notebooks"):
-    os.chdir("..")
-print(f"Current working directory: {os.getcwd()}")
-sys.path.append(os.getcwd())
+# Find project root
+project_root = Path(__file__).resolve().parent
+while not (project_root / "README.md").exists() and project_root.parent != project_root:
+    project_root = project_root.parent
+sys.path.insert(0, str(project_root))
+print(f"Project root: {project_root}")
 
 import fiftyone as fo
 import fiftyone.zoo as foz

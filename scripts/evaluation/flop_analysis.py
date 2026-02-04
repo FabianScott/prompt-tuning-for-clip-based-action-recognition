@@ -116,9 +116,13 @@ if __name__ == "__main__":
     import matplotlib.pyplot as plt
     from tqdm import tqdm
     import numpy as np
-    if os.getcwd().endswith("notebooks"):
-        os.chdir("..")
-    sys.path.append(os.getcwd())
+    from pathlib import Path
+    
+    # Find project root
+    project_root = Path(__file__).resolve().parent
+    while not (project_root / "README.md").exists() and project_root.parent != project_root:
+        project_root = project_root.parent
+    sys.path.insert(0, str(project_root))
 
     from src.configs.parse_run_args import get_config_and_path_from_keys, load_checkpoint_given_path
     from src.data.dataset_builders import build_dataset

@@ -58,10 +58,10 @@ This directory contains scripts to generate all LaTeX tables used in the Results
 
 ## Usage
 
-Run any script from the notebooks directory:
+Run any script from the scripts directory:
 
 ```bash
-cd /zhome/de/d/169059/prompt-tuning-for-clip-based-action-recognition/notebooks
+cd /zhome/de/d/169059/prompt-tuning-for-clip-based-action-recognition/scripts
 python tables/<script_name>.py
 ```
 

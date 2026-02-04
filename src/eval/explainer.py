@@ -107,9 +107,13 @@ def find_video_index(dataset, target_class_name, n_skip: int = 0) -> Optional[in
 
 
 if __name__ == "__main__":
-    if os.getcwd().endswith("notebooks"):
-        os.chdir("..")
-    sys.path.append(os.getcwd())
+    from pathlib import Path
+    
+    # Find project root
+    project_root = Path(__file__).resolve().parent
+    while not (project_root / "README.md").exists() and project_root.parent != project_root:
+        project_root = project_root.parent
+    sys.path.insert(0, str(project_root))
 
     # from src.modeling.grad_cam import run_grad_cam
     keys_list = [

@@ -4,13 +4,15 @@ Generate LaTeX table for HMDB51 K-shot learning results (tab:hmdb51_kshot).
 Both 4-shot and 16-shot results on HMDB51.
 """
 
-import os
 import sys
+from pathlib import Path
 
 if __name__ == "__main__":
-    if os.getcwd().endswith("notebooks"):
-        os.chdir("..")
-    sys.path.append(os.getcwd())
+    # Find project root
+    project_root = Path(__file__).resolve().parent
+    while not (project_root / "README.md").exists() and project_root.parent != project_root:
+        project_root = project_root.parent
+    sys.path.insert(0, str(project_root))
 
     # Data: [16-shot-val, 16-shot-test, 4-shot-val, 4-shot-test]
     results = {

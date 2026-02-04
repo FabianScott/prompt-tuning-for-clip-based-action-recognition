@@ -61,12 +61,12 @@ python generate_results_readme.py
 │
 ├── models             <- Trained and serialized models
 │
-├── notebooks          <- Jupyter notebooks and analysis scripts
-│   ├── data           <- Data exploration notebooks
-│   ├── evaluation     <- Model evaluation notebooks
-│   ├── explainability <- Explainability analysis notebooks
+├── scripts          <- Jupyter scripts and analysis scripts
+│   ├── data           <- Data exploration scripts
+│   ├── evaluation     <- Model evaluation scripts
+│   ├── explainability <- Explainability analysis scripts
 │   ├── tables         <- Table generation scripts for results
-│   └── train_models   <- Training notebooks
+│   └── train_models   <- Training scripts
 │
 ├── references         <- Data dictionaries, manuals, and explanatory materials
 │

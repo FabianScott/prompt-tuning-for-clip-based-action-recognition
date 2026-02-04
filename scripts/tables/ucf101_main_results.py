@@ -4,13 +4,16 @@ Generate LaTeX table for main UCF101 training results (tab:ucf101_results).
 Train, validation and test accuracies with training times.
 """
 
-import os
 import sys
+from pathlib import Path
 
 if __name__ == "__main__":
-    if os.getcwd().endswith("notebooks"):
-        os.chdir("..")
-    sys.path.append(os.getcwd())
+    # Find project root (directory containing README.md)
+    project_root = Path(__file__).resolve().parent
+    while not (project_root / "README.md").exists() and project_root.parent != project_root:
+        project_root = project_root.parent
+    
+    sys.path.insert(0, str(project_root))
 
     # Data: [train_acc, val_acc, test_acc, train_hours]
     results = {

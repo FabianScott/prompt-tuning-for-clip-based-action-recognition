@@ -62,10 +62,13 @@ def main():
             dst_vid.symlink_to(vid_pth.resolve(), target_is_directory=False)
 
 if __name__ == '__main__':
-    import os
     import sys
-    if os.getcwd().endswith("notebooks"):
-        os.chdir("..")
-    print(f"Current working directory: {os.getcwd()}")
-    sys.path.append(os.getcwd())
+    from pathlib import Path
+    
+    # Find project root
+    project_root = Path(__file__).resolve().parent
+    while not (project_root / "README.md").exists() and project_root.parent != project_root:
+        project_root = project_root.parent
+    sys.path.insert(0, str(project_root))
+    print(f"Project root: {project_root}")
     main()

@@ -50,7 +50,7 @@ Tests and validates data loaders for various datasets and methods.
 
 **Usage:**
 ```python
-from notebooks.data.test_dataloader import test_dataloader
+from scripts.data.test_dataloader import test_dataloader
 
 test_dataloader(
     method_default="video_coop",

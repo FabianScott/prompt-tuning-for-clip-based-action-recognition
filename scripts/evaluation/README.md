@@ -80,7 +80,7 @@ Analyzes computational complexity (FLOPs) of trained models.
 
 **Usage:**
 ```python
-from notebooks.evaluation.flop_analysis import flop_analysis
+from scripts.evaluation.flop_analysis import flop_analysis
 
 flop_analysis(
     model_keys=["video_coop/ucf101/best-attention-0"],
