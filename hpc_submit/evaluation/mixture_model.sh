@@ -31,4 +31,4 @@ source /zhome/de/d/169059/vlms-initial-testing/hpc_submit/load_modules.sh
 # Execute your own code by replacing the sanity check code below #
 ##################################################################
 # Print available GPU devices with Tensorflow
-python notebooks/evaluation/mixture_model.py
+python scripts/evaluation/mixture_model.py

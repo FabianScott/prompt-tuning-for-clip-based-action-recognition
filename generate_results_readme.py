@@ -536,20 +536,20 @@ Model calibration analysis showing confidence vs. accuracy:
 
 ## Reproducing Results
 
-All tables in this document are generated from scripts in `notebooks/tables/`:
+All tables in this document are generated from scripts in `scripts/tables/`:
 
 ```bash
 # Generate all tables
-python notebooks/tables/generate_all_tables.py
+python scripts/tables/generate_all_tables.py
 
 # Verify all tables are covered
-python notebooks/tables/verify_coverage.py
+python scripts/tables/verify_coverage.py
 
 # Generate individual table
-python notebooks/tables/ucf101_main_results.py
+python scripts/tables/ucf101_main_results.py
 ```
 
-See [notebooks/tables/README.md](notebooks/tables/README.md) for complete documentation.
+See [scripts/tables/README.md](scripts/tables/README.md) for complete documentation.
 
 ---
 

@@ -9,7 +9,7 @@ Evaluates a single trained model on a specified dataset.
 
 **Usage:**
 ```bash
-python notebooks/evaluation/evaluate_model.py
+python scripts/evaluation/evaluate_model.py
 ```
 
 **Configuration:**
@@ -44,7 +44,7 @@ Batch evaluation script for testing multiple models across different settings.
 
 **Usage:**
 ```bash
-python notebooks/evaluation/run_multiple_evaluations.py
+python scripts/evaluation/run_multiple_evaluations.py
 ```
 
 **Description:**
@@ -65,7 +65,7 @@ Specialized script for evaluating models with different augmentation strategies.
 
 **Usage:**
 ```bash
-python notebooks/evaluation/run_multiple_augmentation_evaluations.py
+python scripts/evaluation/run_multiple_augmentation_evaluations.py
 ```
 
 **Description:**
@@ -109,7 +109,7 @@ Creates and evaluates ensemble models by mixing multiple trained models.
 
 **Usage:**
 ```bash
-python notebooks/evaluation/mixture_model.py
+python scripts/evaluation/mixture_model.py
 ```
 
 **Configuration:**

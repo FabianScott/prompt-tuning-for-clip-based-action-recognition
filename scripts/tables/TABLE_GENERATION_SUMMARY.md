@@ -2,7 +2,7 @@
 
 ## Overview
 
-All LaTeX tables from the Results chapter have corresponding Python generation scripts in the `notebooks/tables/` directory.
+All LaTeX tables from the Results chapter have corresponding Python generation scripts in the `scripts/tables/` directory.
 
 ## Complete Table-to-Script Mapping
 
@@ -28,21 +28,21 @@ All LaTeX tables from the Results chapter have corresponding Python generation s
 ### Generate a Single Table
 
 ```bash
-cd notebooks/tables
+cd scripts/tables
 python ucf101_main_results.py
 ```
 
 ### Generate All Tables
 
 ```bash
-cd notebooks/tables
+cd scripts/tables
 python generate_all_tables.py > ../../all_tables.tex
 ```
 
 ### Verify Coverage
 
 ```bash
-cd notebooks/tables
+cd scripts/tables
 python verify_coverage.py
 ```
 

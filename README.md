@@ -26,52 +26,66 @@ python generate_results_readme.py
 ## Project Organization
 
 ```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
+├── LICENSE            <- Open-source license
+├── Makefile           <- Makefile with convenience commands
+├── README.md          <- The top-level README for developers
+├── RESULTS.md         <- Comprehensive results document (auto-generated)
+├── generate_results_readme.py  <- Script to regenerate RESULTS.md
+├── example_usage.py   <- Examples of using results data programmatically
+├── requirements.txt   <- Requirements file for reproducing the environment
+│
 ├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   ├── external       <- Data from third party sources
+│   ├── interim        <- Intermediate data that has been transformed
+│   ├── processed      <- Final, canonical data sets for modeling
+│   │   ├── prompts    <- Generated prompts
+│   │   └── results    <- Model predictions and evaluations
+│   └── raw            <- Original, immutable data dump
 │
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
+├── docs               <- Documentation (mkdocs format)
+│   ├── mkdocs.yml     <- MkDocs configuration
+│   ├── RESULTS_DATA.md <- API reference for results data
+│   └── docs/          <- Documentation pages
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
+├── figures            <- Generated visualizations
+│   ├── calibration    <- Model calibration plots
+│   ├── explainer      <- Attention rollout visualizations
+│   └── gflops         <- Computational cost analysis
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── hpc_submit         <- HPC job submission scripts
+│   ├── data           <- Data preparation jobs
+│   ├── evaluation     <- Model evaluation jobs
+│   ├── explainability <- Explainability analysis jobs
+│   ├── train_models   <- Model training jobs
+│   └── utilities      <- Utility scripts
 │
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         vlms_initial_testing and configuration for tools like black
+├── models             <- Trained and serialized models
 │
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+├── notebooks          <- Jupyter notebooks and analysis scripts
+│   ├── data           <- Data exploration notebooks
+│   ├── evaluation     <- Model evaluation notebooks
+│   ├── explainability <- Explainability analysis notebooks
+│   ├── tables         <- Table generation scripts for results
+│   └── train_models   <- Training notebooks
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
+├── references         <- Data dictionaries, manuals, and explanatory materials
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
+├── reports            <- Generated analysis as HTML, PDF, LaTeX
+│   └── figures        <- Generated graphics for reporting
 │
-├── setup.cfg          <- Configuration file for flake8
+├── src                <- Source code for this project
+│   ├── __init__.py    <- Makes src a Python module
+│   ├── plots.py       <- Visualization utilities
+│   ├── configs        <- Configuration files
+│   ├── data           <- Data loading and processing scripts
+│   ├── eval           <- Evaluation utilities
+│   ├── modeling       <- Model architectures and training code
+│   └── tables         <- Table generation utilities
+│       └── results_data.py  <- Central data store for all experimental results
 │
-└── vlms_initial_testing   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes vlms_initial_testing a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
+├── tests              <- Unit tests
+│
+└── tokens             <- API tokens and credentials
 ```
 
 --------

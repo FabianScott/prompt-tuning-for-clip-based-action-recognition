@@ -31,4 +31,4 @@ source /zhome/de/d/169059/vlms-initial-testing/venv/bin/activate
 ##################################################################
 # Execute your own code by replacing the sanity check code below #
 ##################################################################
-python notebooks/data/downloading.py
+python scripts/data/downloading.py

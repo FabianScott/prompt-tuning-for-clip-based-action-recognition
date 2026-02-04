@@ -68,7 +68,7 @@ python tables/<script_name>.py
 Or run from the project root:
 
 ```bash
-python notebooks/tables/<script_name>.py
+python scripts/tables/<script_name>.py
 ```
 
 All scripts automatically handle path adjustments and will output LaTeX table code to stdout.
@@ -89,7 +89,7 @@ Most scripts use the utility function in `src/tables/augmentation_utils.py` whic
 To generate all tables at once:
 
 ```bash
-cd /zhome/de/d/169059/prompt-tuning-for-clip-based-action-recognition/notebooks/tables
+cd /zhome/de/d/169059/prompt-tuning-for-clip-based-action-recognition/scripts/tables
 python generate_all_tables.py > ../../all_tables.tex
 ```
 
@@ -98,7 +98,7 @@ python generate_all_tables.py > ../../all_tables.tex
 To verify all tables are covered:
 
 ```bash
-cd /zhome/de/d/169059/prompt-tuning-for-clip-based-action-recognition/notebooks/tables
+cd /zhome/de/d/169059/prompt-tuning-for-clip-based-action-recognition/scripts/tables
 python verify_coverage.py
 ```
 

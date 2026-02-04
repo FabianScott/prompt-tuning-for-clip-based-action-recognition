@@ -9,7 +9,7 @@ Trains Video-CoOp (Video Conditional Context Optimization) models.
 
 **Usage:**
 ```bash
-python notebooks/train_models/run_video_coop.py
+python scripts/train_models/run_video_coop.py
 ```
 
 **Configuration:**
@@ -42,7 +42,7 @@ Trains Dual-CoOp models that learn both text and visual prompts.
 
 **Usage:**
 ```bash
-python notebooks/train_models/run_dual_coop.py
+python scripts/train_models/run_dual_coop.py
 ```
 
 **Configuration:**
@@ -76,7 +76,7 @@ Trains Spatial-Temporal Transformer (STT) models.
 
 **Usage:**
 ```bash
-python notebooks/train_models/run_stt.py
+python scripts/train_models/run_stt.py
 ```
 
 **Configuration:**
@@ -108,7 +108,7 @@ Trains ViDOP (Video Descriptor-based Optimal Prompting) models.
 
 **Usage:**
 ```bash
-python notebooks/train_models/run_vidop.py
+python scripts/train_models/run_vidop.py
 ```
 
 **Configuration:**
@@ -133,7 +133,7 @@ Trains ViLT (Vision-and-Language Transformer) models.
 
 **Usage:**
 ```bash
-python notebooks/train_models/run_vilt.py
+python scripts/train_models/run_vilt.py
 ```
 
 **Description:**
@@ -148,7 +148,7 @@ Trains ViTA (Video-Text Alignment) models.
 
 **Usage:**
 ```bash
-python notebooks/train_models/run_vita.py
+python scripts/train_models/run_vita.py
 ```
 
 **Description:**

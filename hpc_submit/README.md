@@ -40,17 +40,17 @@ hpc_submit/
 
 All scripts now reference the corresponding organized notebook structure:
 
-- `train_models/*.sh` → `notebooks/train_models/*.py`
-- `evaluation/*.sh` → `notebooks/evaluation/*.py`
-- `explainability/*.sh` → `notebooks/explainability/*.py`
-- `data/*.sh` → `notebooks/data/*.py` (where applicable)
+- `train_models/*.sh` → `scripts/train_models/*.py`
+- `evaluation/*.sh` → `scripts/evaluation/*.py`
+- `explainability/*.sh` → `scripts/explainability/*.py`
+- `data/*.sh` → `scripts/data/*.py` (where applicable)
 
 ## Known Issues
 
 The following scripts reference Python files that don't currently exist:
-- `utilities/simple_inference.sh` → `notebooks/video_inference.py` (missing)
-- `utilities/time_test.sh` → `notebooks/transformers_test.py` (missing)
-- `data/extract_kinetics.sh` → `notebooks/extracting_kinetics.py` (missing)
+- `utilities/simple_inference.sh` → `scripts/video_inference.py` (missing)
+- `utilities/time_test.sh` → `scripts/transformers_test.py` (missing)
+- `data/extract_kinetics.sh` → `scripts/extracting_kinetics.py` (missing)
 
 ## Usage
 

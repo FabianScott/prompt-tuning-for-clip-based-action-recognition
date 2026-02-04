@@ -9,7 +9,7 @@ Downloads the Kinetics-400 dataset using FiftyOne's zoo dataset functionality.
 
 **Usage:**
 ```bash
-python notebooks/data/download_kinetics400.py
+python scripts/data/download_kinetics400.py
 ```
 
 **Description:**
@@ -30,7 +30,7 @@ Processes the NWPU (Northwestern Polytechnical University) dataset for action de
 
 **Usage:**
 ```bash
-python notebooks/data/process_nwup.py
+python scripts/data/process_nwup.py
 ```
 
 **Description:**

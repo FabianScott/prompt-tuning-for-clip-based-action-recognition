@@ -9,7 +9,7 @@ Analyzes model calibration by computing expected calibration error (ECE) and gen
 
 **Usage:**
 ```bash
-python notebooks/explainability/calibration.py
+python scripts/explainability/calibration.py
 ```
 
 **Configuration:**
@@ -54,7 +54,7 @@ Generates visual explanations of model predictions using attention mechanisms an
 
 **Usage:**
 ```bash
-python notebooks/explainability/run_explainer.py
+python scripts/explainability/run_explainer.py
 ```
 
 **Configuration:**

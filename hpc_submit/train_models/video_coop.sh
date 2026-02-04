@@ -31,4 +31,4 @@ source /zhome/de/d/169059/vlms-initial-testing/hpc_submit/load_modules.sh
 # Execute your own code by replacing the sanity check code below #
 ##################################################################
 # Print available GPU devices with Tensorflow
-python notebooks/train_models/run_video_coop.py
+python scripts/train_models/run_video_coop.py
