@@ -1,0 +1,18 @@
+{
+    "batch-size": 2,
+    "num-workers": 0,
+    "batches-per-backprop": 64,
+    "split-file": "",
+    "K-train": 16,
+    "K-val": 4,
+    "split-function": "",
+    "random-seed": 42,
+    "has-validation": true,
+    "use-cache": true,
+    "resized-cache-protocol": "preserve-aspect-ratio",
+    "save-to-cache": true,
+    "class-protocol": "all",
+    "num-classes": null,
+    "skip-first-K-train": 0,
+    "skip-first-K-val": 0
+}

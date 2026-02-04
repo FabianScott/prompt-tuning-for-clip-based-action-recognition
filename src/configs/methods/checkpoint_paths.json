@@ -1,0 +1,32 @@
+{
+    "video_coop": {
+        "kinetics400": {},
+        "ucf101": {},
+        "hmdb51": {}
+    },
+    "dual_coop": {
+        "ucf101": {},
+        "kinetics400": {},
+        "hmdb51": {}
+    },
+    "vidop": {
+        "ucf101": {},
+        "kinetics400": {},
+        "hmdb51": {}
+    },
+    "vilt": {
+        "ucf101": {},
+        "kinetics400": {},
+        "hmdb51": {}
+    },
+    "vita": {
+        "ucf101": {},
+        "kinetics400": {},
+        "hmdb51": {}
+    },
+    "stt": {
+        "ucf101": {},
+        "kinetics400": {},
+        "hmdb51": {}
+    }
+}

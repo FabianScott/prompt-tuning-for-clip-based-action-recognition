@@ -1,0 +1,33 @@
+{
+  "method-name": "dual-coop",
+  "clip-model": "openai/clip-vit-base-patch16",
+  "ctx-len": 8,
+  "ctx-len-video": 8,
+  "class-wise": false,
+  "lr": 1e-3,
+  "weight-decay": 0.01,
+  "std-init": 0.02,
+  "regularisation-strength": 0.0,
+  "temporal-pooling": "attention",
+  "learn-just-pooling": false,
+  "keep-vision-prompts-throughout": false,
+  "epochs": 40,
+  "continue-from": "dual_coop/ucf101/best-attention-1",
+  "fp16": false,
+  "num-frames": null,
+  "use-checkpointing": true,
+  "debug": false,
+  "use-profiling": false,
+  "checkpoint-last-n": 12,
+  "activation-clamp-value": 1e4,
+  "use-fresh-lr-scheduler": true,
+  "dataset-config": {},
+  "training-history": {
+    "train-acc": [],
+    "train-loss": [],
+    "val-acc": [],
+    "val-loss": []
+  },
+  "videomix-type": null,
+  "videomix-prob": 1.0
+}

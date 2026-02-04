@@ -1,0 +1,26 @@
+{
+    "random-horizontal-flip": {
+      "p": 0.0
+    },
+    "random-vertical-flip": {
+      "p": 0.0
+    },
+    "color-jitter": {
+      "brightness": 0.0,
+      "contrast": 0.0,
+      "saturation": 0.0,
+      "hue": 0.0
+    },
+    "gaussian-blur": {
+      "kernel-size": 1,
+      "sigma": [1, 1]
+    },
+    "salt-and-pepper-noise": {
+      "probability": 0.00
+    },
+    "cutout": {
+      "p": 0.0,
+      "scale": [0.02, 0.33],
+      "ratio": [0.3, 3.3]
+    }
+}

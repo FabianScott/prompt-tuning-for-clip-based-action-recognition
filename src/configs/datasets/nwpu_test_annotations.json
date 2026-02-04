@@ -1,0 +1,2039 @@
+{
+    "D001_03": {
+        "metadata": {
+            "duration": 18.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 451
+        },
+        "action_type": "climbing_fence",
+        "action_spans": [
+            [
+                120,
+                330
+            ]
+        ]
+    },
+    "D001_04": {
+        "metadata": {
+            "duration": 20.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 501
+        },
+        "action_type": "climbing_fence",
+        "action_spans": [
+            [
+                80,
+                335
+            ]
+        ]
+    },
+    "D002_01": {
+        "metadata": {
+            "duration": 48.04,
+            "width": 704,
+            "height": 576,
+            "fps": 25.0,
+            "frame_count": 1201
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                520,
+                979
+            ]
+        ]
+    },
+    "D002_02": {
+        "metadata": {
+            "duration": 74.04,
+            "width": 704,
+            "height": 576,
+            "fps": 25.0,
+            "frame_count": 1851
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                100,
+                579
+            ]
+        ]
+    },
+    "D003_03": {
+        "metadata": {
+            "duration": 18.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 451
+        },
+        "action_type": "trucks",
+        "action_spans": [
+            [
+                50,
+                229
+            ]
+        ]
+    },
+    "D003_04": {
+        "metadata": {
+            "duration": 68.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1701
+        },
+        "action_type": "trucks",
+        "action_spans": [
+            [
+                1080,
+                1249
+            ]
+        ]
+    },
+    "D003_05": {
+        "metadata": {
+            "duration": 84.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2101
+        },
+        "action_type": [
+            "dogs",
+            "trucks"
+        ],
+        "action_spans": [
+            [
+                [
+                    390,
+                    559
+                ]
+            ],
+            [
+                [
+                    1920,
+                    2079
+                ]
+            ]
+        ]
+    },
+    "D013_01": {
+        "metadata": {
+            "duration": 114.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2851
+        },
+        "action_type": "cycling_on_square",
+        "action_spans": [
+            [
+                660,
+                2795
+            ]
+        ]
+    },
+    "D013_02": {
+        "metadata": {
+            "duration": 100.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2501
+        },
+        "action_type": "cycling_on_square",
+        "action_spans": [
+            [
+                115,
+                2435
+            ]
+        ]
+    },
+    "D013_03": {
+        "metadata": {
+            "duration": 66.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1651
+        },
+        "action_type": "cycling_on_square",
+        "action_spans": [
+            [
+                85,
+                1500
+            ]
+        ]
+    },
+    "D014_01": {
+        "metadata": {
+            "duration": 22.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 551
+        },
+        "action_type": "climbing_fence",
+        "action_spans": [
+            [
+                150,
+                385
+            ]
+        ]
+    },
+    "D014_02": {
+        "metadata": {
+            "duration": 14.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 351
+        },
+        "action_type": "climbing_fence",
+        "action_spans": [
+            [
+                30,
+                210
+            ]
+        ]
+    },
+    "D029_01": {
+        "metadata": {
+            "duration": 79.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1976
+        },
+        "action_type": "group_conflict",
+        "action_spans": [
+            [
+                800,
+                948
+            ]
+        ]
+    },
+    "D029_02": {
+        "metadata": {
+            "duration": 51.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1276
+        },
+        "action_type": "group_conflict",
+        "action_spans": [
+            [
+                235,
+                709
+            ]
+        ]
+    },
+    "D031_01": {
+        "metadata": {
+            "duration": 81.04,
+            "width": 1280,
+            "height": 960,
+            "fps": 25.0,
+            "frame_count": 2026
+        },
+        "action_type": "group_conflict",
+        "action_spans": [
+            [
+                660,
+                1315
+            ]
+        ]
+    },
+    "D031_03": {
+        "metadata": {
+            "duration": 125.04,
+            "width": 1280,
+            "height": 960,
+            "fps": 25.0,
+            "frame_count": 3126
+        },
+        "action_type": "group_conflict",
+        "action_spans": [
+            [
+                1700,
+                2300
+            ]
+        ]
+    },
+    "D031_05": {
+        "metadata": {
+            "duration": 115.04,
+            "width": 1280,
+            "height": 960,
+            "fps": 25.0,
+            "frame_count": 2876
+        },
+        "action_type": "climbing_tree",
+        "action_spans": [
+            [
+                510,
+                720
+            ],
+            [
+                1200,
+                1330
+            ]
+        ]
+    },
+    "D031_06": {
+        "metadata": {
+            "duration": 48.04,
+            "width": 1280,
+            "height": 960,
+            "fps": 25.0,
+            "frame_count": 1201
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                130,
+                270
+            ]
+        ]
+    },
+    "D031_07": {
+        "metadata": {
+            "duration": 29.04,
+            "width": 1280,
+            "height": 960,
+            "fps": 25.0,
+            "frame_count": 726
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                230,
+                370
+            ]
+        ]
+    },
+    "D031_09": {
+        "metadata": {
+            "duration": 32.04,
+            "width": 1280,
+            "height": 960,
+            "fps": 25.0,
+            "frame_count": 801
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                220,
+                375
+            ]
+        ]
+    },
+    "D035_01": {
+        "metadata": {
+            "duration": 244.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 6101
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                3287,
+                3759
+            ]
+        ]
+    },
+    "D035_03": {
+        "metadata": {
+            "duration": 33.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 826
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                550,
+                739
+            ]
+        ]
+    },
+    "D036_03": {
+        "metadata": {
+            "duration": 120.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 3001
+        },
+        "action_type": "photographing_in_restricted_area",
+        "action_spans": [
+            [
+                620,
+                840
+            ]
+        ]
+    },
+    "D036_07": {
+        "metadata": {
+            "duration": 100.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2501
+        },
+        "action_type": "climbing_tree",
+        "action_spans": [
+            [
+                970,
+                1155
+            ]
+        ]
+    },
+    "D036_08": {
+        "metadata": {
+            "duration": 80.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2001
+        },
+        "action_type": "photographing_in_restricted_area",
+        "action_spans": [
+            [
+                140,
+                500
+            ]
+        ]
+    },
+    "D038_03": {
+        "metadata": {
+            "duration": 160.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 4001
+        },
+        "action_type": "photographing_in_restricted_area",
+        "action_spans": [
+            [
+                2610,
+                2970
+            ]
+        ]
+    },
+    "D038_05": {
+        "metadata": {
+            "duration": 52.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1301
+        },
+        "action_type": "photographing_in_restricted_area",
+        "action_spans": [
+            [
+                580,
+                925
+            ]
+        ]
+    },
+    "D038_06": {
+        "metadata": {
+            "duration": 68.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1701
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                600,
+                789
+            ]
+        ]
+    },
+    "D042_01": {
+        "metadata": {
+            "duration": 26.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 651
+        },
+        "action_type": "group_conflict",
+        "action_spans": [
+            [
+                255,
+                525
+            ]
+        ]
+    },
+    "D043_01": {
+        "metadata": {
+            "duration": 86.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2151
+        },
+        "action_type": "group_conflict",
+        "action_spans": [
+            [
+                1460,
+                1765
+            ]
+        ]
+    },
+    "D047_01": {
+        "metadata": {
+            "duration": 264.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 6601
+        },
+        "action_type": "suddenly_stopping_cycling_in_the_middle_of_the_road",
+        "action_spans": [
+            [
+                520,
+                6135
+            ]
+        ]
+    },
+    "D047_04": {
+        "metadata": {
+            "duration": 12.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 301
+        },
+        "action_type": "wrong_turn",
+        "action_spans": [
+            [
+                35,
+                205
+            ]
+        ]
+    },
+    "D047_05": {
+        "metadata": {
+            "duration": 12.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 301
+        },
+        "action_type": "wrong_turn",
+        "action_spans": [
+            [
+                65,
+                190
+            ]
+        ]
+    },
+    "D047_06": {
+        "metadata": {
+            "duration": 16.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 401
+        },
+        "action_type": "wrong_turn",
+        "action_spans": [
+            [
+                130,
+                285
+            ]
+        ]
+    },
+    "D047_07": {
+        "metadata": {
+            "duration": 18.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 451
+        },
+        "action_type": "wrong_turn",
+        "action_spans": [
+            [
+                95,
+                295
+            ]
+        ]
+    },
+    "D047_08": {
+        "metadata": {
+            "duration": 24.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 601
+        },
+        "action_type": "wrong_turn",
+        "action_spans": [
+            [
+                175,
+                420
+            ]
+        ]
+    },
+    "D048_01": {
+        "metadata": {
+            "duration": 84.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2101
+        },
+        "action_type": "cycling_on_square",
+        "action_spans": [
+            [
+                1565,
+                1910
+            ]
+        ]
+    },
+    "D048_02": {
+        "metadata": {
+            "duration": 104.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2601
+        },
+        "action_type": "cycling_on_square",
+        "action_spans": [
+            [
+                1035,
+                1115
+            ],
+            [
+                1910,
+                2180
+            ]
+        ]
+    },
+    "D048_05": {
+        "metadata": {
+            "duration": 46.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1151
+        },
+        "action_type": "cycling_on_square",
+        "action_spans": [
+            [
+                990,
+                1140
+            ]
+        ]
+    },
+    "D048_06": {
+        "metadata": {
+            "duration": 100.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2501
+        },
+        "action_type": "cycling_on_square",
+        "action_spans": [
+            [
+                980,
+                1080
+            ],
+            [
+                1710,
+                2065
+            ]
+        ]
+    },
+    "D054_04": {
+        "metadata": {
+            "duration": 79.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1976
+        },
+        "action_type": "wrong_turn",
+        "action_spans": [
+            [
+                1280,
+                1519
+            ]
+        ]
+    },
+    "D055_02": {
+        "metadata": {
+            "duration": 84.36,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2109
+        },
+        "action_type": "suddenly_stopping_cycling_in_the_middle_of_the_road",
+        "action_spans": [
+            [
+                1040,
+                1320
+            ]
+        ]
+    },
+    "D055_04": {
+        "metadata": {
+            "duration": 57.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1426
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                1050,
+                1200
+            ]
+        ]
+    },
+    "D055_07": {
+        "metadata": {
+            "duration": 23.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 576
+        },
+        "action_type": "wrong_turn",
+        "action_spans": [
+            [
+                175,
+                270
+            ]
+        ]
+    },
+    "D055_08": {
+        "metadata": {
+            "duration": 155.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 3876
+        },
+        "action_type": "suddenly_stopping_cycling_in_the_middle_of_the_road",
+        "action_spans": [
+            [
+                35,
+                175
+            ],
+            [
+                525,
+                595
+            ],
+            [
+                995,
+                1160
+            ]
+        ]
+    },
+    "D068_05": {
+        "metadata": {
+            "duration": 44.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1101
+        },
+        "action_type": "climbing_tree",
+        "action_spans": [
+            [
+                340,
+                560
+            ]
+        ]
+    },
+    "D068_07": {
+        "metadata": {
+            "duration": 50.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1251
+        },
+        "action_type": "climbing_tree",
+        "action_spans": [
+            [
+                660,
+                790
+            ]
+        ]
+    },
+    "D068_09": {
+        "metadata": {
+            "duration": 40.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1001
+        },
+        "action_type": "chasing",
+        "action_spans": [
+            [
+                705,
+                765
+            ]
+        ]
+    },
+    "D068_10": {
+        "metadata": {
+            "duration": 33.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 826
+        },
+        "action_type": "snatching_bag",
+        "action_spans": [
+            [
+                500,
+                640
+            ]
+        ]
+    },
+    "D076_01": {
+        "metadata": {
+            "duration": 60.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1501
+        },
+        "action_type": "snatching_bag",
+        "action_spans": [
+            [
+                250,
+                1500
+            ]
+        ]
+    },
+    "D076_03": {
+        "metadata": {
+            "duration": 70.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1751
+        },
+        "action_type": "snatching_bag",
+        "action_spans": [
+            [
+                1240,
+                1630
+            ]
+        ]
+    },
+    "D076_05": {
+        "metadata": {
+            "duration": 70.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1751
+        },
+        "action_type": "group_conflict",
+        "action_spans": [
+            [
+                740,
+                1210
+            ]
+        ]
+    },
+    "D077_01": {
+        "metadata": {
+            "duration": 58.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1451
+        },
+        "action_type": "snatching_bag",
+        "action_spans": [
+            [
+                1215,
+                1380
+            ]
+        ]
+    },
+    "D077_03": {
+        "metadata": {
+            "duration": 68.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1701
+        },
+        "action_type": "snatching_bag",
+        "action_spans": [
+            [
+                1150,
+                1700
+            ]
+        ]
+    },
+    "D077_06": {
+        "metadata": {
+            "duration": 86.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2151
+        },
+        "action_type": "group_conflict",
+        "action_spans": [
+            [
+                950,
+                1440
+            ]
+        ]
+    },
+    "D092_03": {
+        "metadata": {
+            "duration": 100.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2501
+        },
+        "action_type": "protest",
+        "action_spans": [
+            [
+                180,
+                900
+            ]
+        ]
+    },
+    "D092_04": {
+        "metadata": {
+            "duration": 60.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1501
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                680,
+                1199
+            ]
+        ]
+    },
+    "D092_07": {
+        "metadata": {
+            "duration": 106.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2651
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                175,
+                1054
+            ]
+        ]
+    },
+    "D094_01": {
+        "metadata": {
+            "duration": 16.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 401
+        },
+        "action_type": "protest",
+        "action_spans": [
+            [
+                70,
+                365
+            ]
+        ]
+    },
+    "D099_05": {
+        "metadata": {
+            "duration": 26.04,
+            "width": 2048,
+            "height": 1536,
+            "fps": 25.0,
+            "frame_count": 651
+        },
+        "action_type": "kicking_trash_can",
+        "action_spans": [
+            [
+                450,
+                515
+            ]
+        ]
+    },
+    "D109_01": {
+        "metadata": {
+            "duration": 76.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1901
+        },
+        "action_type": "loitering",
+        "action_spans": [
+            [
+                510,
+                635
+            ]
+        ]
+    },
+    "D109_07": {
+        "metadata": {
+            "duration": 208.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 5201
+        },
+        "action_type": "loitering",
+        "action_spans": [
+            [
+                1490,
+                3030
+            ],
+            [
+                4575,
+                4845
+            ]
+        ]
+    },
+    "D109_08": {
+        "metadata": {
+            "duration": 80.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2001
+        },
+        "action_type": "loitering",
+        "action_spans": [
+            [
+                220,
+                1800
+            ]
+        ]
+    },
+    "D109_09": {
+        "metadata": {
+            "duration": 58.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1451
+        },
+        "action_type": "loitering",
+        "action_spans": [
+            [
+                240,
+                1200
+            ]
+        ]
+    },
+    "D109_10": {
+        "metadata": {
+            "duration": 80.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2001
+        },
+        "action_type": "loitering",
+        "action_spans": [
+            [
+                240,
+                1800
+            ]
+        ]
+    },
+    "D111_01": {
+        "metadata": {
+            "duration": 56.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1401
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                950,
+                1150
+            ]
+        ]
+    },
+    "D111_03": {
+        "metadata": {
+            "duration": 35.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 876
+        },
+        "action_type": "jaywalking",
+        "action_spans": [
+            [
+                575,
+                685
+            ]
+        ]
+    },
+    "D121_01": {
+        "metadata": {
+            "duration": 47.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1176
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                660,
+                915
+            ]
+        ]
+    },
+    "D121_02": {
+        "metadata": {
+            "duration": 52.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1301
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                310,
+                615
+            ]
+        ]
+    },
+    "D122_04": {
+        "metadata": {
+            "duration": 45.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1126
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                550,
+                860
+            ]
+        ]
+    },
+    "D122_05": {
+        "metadata": {
+            "duration": 39.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 976
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                390,
+                700
+            ]
+        ]
+    },
+    "D122_06": {
+        "metadata": {
+            "duration": 46.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1151
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                330,
+                650
+            ]
+        ]
+    },
+    "D124_05": {
+        "metadata": {
+            "duration": 48.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1201
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                440,
+                510
+            ]
+        ]
+    },
+    "D124_07": {
+        "metadata": {
+            "duration": 34.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 851
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                380,
+                485
+            ]
+        ]
+    },
+    "D127_01": {
+        "metadata": {
+            "duration": 52.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1301
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                400,
+                700
+            ]
+        ]
+    },
+    "D127_02": {
+        "metadata": {
+            "duration": 47.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1176
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                430,
+                605
+            ]
+        ]
+    },
+    "D127_04": {
+        "metadata": {
+            "duration": 49.0,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1225
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                660,
+                945
+            ]
+        ]
+    },
+    "D129_03": {
+        "metadata": {
+            "duration": 41.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1026
+        },
+        "action_type": "playing_with_water",
+        "action_spans": [
+            [
+                225,
+                370
+            ]
+        ]
+    },
+    "D129_05": {
+        "metadata": {
+            "duration": 112.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2801
+        },
+        "action_type": "cycling_on_footpath",
+        "action_spans": [
+            [
+                665,
+                840
+            ]
+        ]
+    },
+    "D148_01": {
+        "metadata": {
+            "duration": 114.68,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2867
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                1220,
+                1320
+            ],
+            [
+                2000,
+                2245
+            ]
+        ]
+    },
+    "D148_02": {
+        "metadata": {
+            "duration": 80.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2001
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                1100,
+                1195
+            ],
+            [
+                1340,
+                1445
+            ]
+        ]
+    },
+    "D148_03": {
+        "metadata": {
+            "duration": 100.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2501
+        },
+        "action_type": "forgetting_backpack",
+        "action_spans": [
+            [
+                1080,
+                1180
+            ]
+        ]
+    },
+    "D148_04": {
+        "metadata": {
+            "duration": 77.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1926
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                1000,
+                1225
+            ]
+        ]
+    },
+    "D149_03": {
+        "metadata": {
+            "duration": 69.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1726
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                1090,
+                1480
+            ]
+        ]
+    },
+    "D149_05": {
+        "metadata": {
+            "duration": 30.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 751
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                350,
+                500
+            ]
+        ]
+    },
+    "D149_07": {
+        "metadata": {
+            "duration": 41.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1026
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                480,
+                600
+            ]
+        ]
+    },
+    "D150_01": {
+        "metadata": {
+            "duration": 86.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2151
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                1410,
+                1710
+            ]
+        ]
+    },
+    "D150_03": {
+        "metadata": {
+            "duration": 83.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2076
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                1070,
+                1550
+            ]
+        ]
+    },
+    "D150_05": {
+        "metadata": {
+            "duration": 60.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1501
+        },
+        "action_type": [
+            "forgetting_backpack",
+            "stealing"
+        ],
+        "action_spans": [
+            [
+                [
+                    140,
+                    265
+                ]
+            ],
+            [
+                [
+                    1370,
+                    1500
+                ]
+            ]
+        ]
+    },
+    "D150_06": {
+        "metadata": {
+            "duration": 50.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1251
+        },
+        "action_type": "forgetting_backpack",
+        "action_spans": [
+            [
+                640,
+                780
+            ]
+        ]
+    },
+    "D150_07": {
+        "metadata": {
+            "duration": 55.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1376
+        },
+        "action_type": "forgetting_backpack",
+        "action_spans": [
+            [
+                450,
+                610
+            ]
+        ]
+    },
+    "D151_01": {
+        "metadata": {
+            "duration": 85.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2126
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                1290,
+                1780
+            ]
+        ]
+    },
+    "D151_03": {
+        "metadata": {
+            "duration": 78.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1951
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                1070,
+                1675
+            ]
+        ]
+    },
+    "D151_05": {
+        "metadata": {
+            "duration": 61.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1526
+        },
+        "action_type": [
+            "forgetting_backpack",
+            "stealing"
+        ],
+        "action_spans": [
+            [
+                [
+                    145,
+                    480
+                ]
+            ],
+            [
+                [
+                    1380,
+                    1525
+                ]
+            ]
+        ]
+    },
+    "D151_06": {
+        "metadata": {
+            "duration": 31.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 776
+        },
+        "action_type": "forgetting_backpack",
+        "action_spans": [
+            [
+                155,
+                395
+            ]
+        ]
+    },
+    "D151_07": {
+        "metadata": {
+            "duration": 65.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1626
+        },
+        "action_type": "forgetting_backpack",
+        "action_spans": [
+            [
+                880,
+                1150
+            ]
+        ]
+    },
+    "D151_08": {
+        "metadata": {
+            "duration": 54.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1351
+        },
+        "action_type": "forgetting_backpack",
+        "action_spans": [
+            [
+                490,
+                770
+            ]
+        ]
+    },
+    "D154_02": {
+        "metadata": {
+            "duration": 44.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1101
+        },
+        "action_type": "suddenly_stopping_cycling_in_the_middle_of_the_road",
+        "action_spans": [
+            [
+                600,
+                940
+            ]
+        ]
+    },
+    "D154_03": {
+        "metadata": {
+            "duration": 47.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1176
+        },
+        "action_type": "suddenly_stopping_cycling_in_the_middle_of_the_road",
+        "action_spans": [
+            [
+                550,
+                680
+            ]
+        ]
+    },
+    "D154_04": {
+        "metadata": {
+            "duration": 96.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2401
+        },
+        "action_type": "protest",
+        "action_spans": [
+            [
+                510,
+                1760
+            ]
+        ]
+    },
+    "D155_02": {
+        "metadata": {
+            "duration": 259.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 6476
+        },
+        "action_type": "protest",
+        "action_spans": [
+            [
+                1725,
+                5940
+            ]
+        ]
+    },
+    "D158_01": {
+        "metadata": {
+            "duration": 61.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1526
+        },
+        "action_type": "chasing",
+        "action_spans": [
+            [
+                1205,
+                1305
+            ]
+        ]
+    },
+    "D158_02": {
+        "metadata": {
+            "duration": 18.84,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 471
+        },
+        "action_type": "chasing",
+        "action_spans": [
+            [
+                85,
+                200
+            ]
+        ]
+    },
+    "D158_12": {
+        "metadata": {
+            "duration": 103.84,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2596
+        },
+        "action_type": "loitering",
+        "action_spans": [
+            [
+                1480,
+                2595
+            ]
+        ]
+    },
+    "D158_13": {
+        "metadata": {
+            "duration": 40.84,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1021
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                230,
+                330
+            ]
+        ]
+    },
+    "D158_14": {
+        "metadata": {
+            "duration": 23.24,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 581
+        },
+        "action_type": "stealing",
+        "action_spans": [
+            [
+                155,
+                290
+            ]
+        ]
+    },
+    "D158_15": {
+        "metadata": {
+            "duration": 209.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 5226
+        },
+        "action_type": "loitering",
+        "action_spans": [
+            [
+                2600,
+                3980
+            ],
+            [
+                4100,
+                4900
+            ]
+        ]
+    },
+    "D158_17": {
+        "metadata": {
+            "duration": 54.28,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1357
+        },
+        "action_type": "loitering",
+        "action_spans": [
+            [
+                470,
+                1356
+            ]
+        ]
+    },
+    "D164_01": {
+        "metadata": {
+            "duration": 100.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2501
+        },
+        "action_type": "kicking_trash_can",
+        "action_spans": [
+            [
+                630,
+                710
+            ]
+        ]
+    },
+    "D164_04": {
+        "metadata": {
+            "duration": 36.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 901
+        },
+        "action_type": "kicking_trash_can",
+        "action_spans": [
+            [
+                290,
+                345
+            ]
+        ]
+    },
+    "D235_01": {
+        "metadata": {
+            "duration": 64.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1601
+        },
+        "action_type": "cycling_on_square",
+        "action_spans": [
+            [
+                310,
+                1520
+            ]
+        ]
+    },
+    "D235_03": {
+        "metadata": {
+            "duration": 86.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2151
+        },
+        "action_type": "cycling_on_square",
+        "action_spans": [
+            [
+                20,
+                2120
+            ]
+        ]
+    },
+    "D235_07": {
+        "metadata": {
+            "duration": 98.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2451
+        },
+        "action_type": "cycling_on_square",
+        "action_spans": [
+            [
+                25,
+                2355
+            ]
+        ]
+    },
+    "D236_02": {
+        "metadata": {
+            "duration": 38.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 951
+        },
+        "action_type": "driving_on_wrong_side",
+        "action_spans": [
+            [
+                600,
+                890
+            ]
+        ]
+    },
+    "D248_01": {
+        "metadata": {
+            "duration": 36.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 901
+        },
+        "action_type": "scuffle",
+        "action_spans": [
+            [
+                310,
+                640
+            ]
+        ]
+    },
+    "D248_03": {
+        "metadata": {
+            "duration": 60.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1501
+        },
+        "action_type": "scuffle",
+        "action_spans": [
+            [
+                670,
+                940
+            ]
+        ]
+    },
+    "D248_04": {
+        "metadata": {
+            "duration": 95.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 2376
+        },
+        "action_type": "scuffle",
+        "action_spans": [
+            [
+                530,
+                805
+            ]
+        ]
+    },
+    "D268_02": {
+        "metadata": {
+            "duration": 42.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1051
+        },
+        "action_type": "driving_on_wrong_side",
+        "action_spans": [
+            [
+                220,
+                625
+            ]
+        ]
+    },
+    "D268_06": {
+        "metadata": {
+            "duration": 52.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1301
+        },
+        "action_type": "driving_on_wrong_side",
+        "action_spans": [
+            [
+                50,
+                1190
+            ]
+        ]
+    },
+    "D273_02": {
+        "metadata": {
+            "duration": 29.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 726
+        },
+        "action_type": "climbing_fence",
+        "action_spans": [
+            [
+                230,
+                530
+            ]
+        ]
+    },
+    "D273_03": {
+        "metadata": {
+            "duration": 38.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 951
+        },
+        "action_type": "climbing_fence",
+        "action_spans": [
+            [
+                400,
+                760
+            ]
+        ]
+    },
+    "D282_01": {
+        "metadata": {
+            "duration": 66.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1651
+        },
+        "action_type": "loitering",
+        "action_spans": [
+            [
+                320,
+                1295
+            ]
+        ]
+    },
+    "D282_02": {
+        "metadata": {
+            "duration": 48.04,
+            "width": 1920,
+            "height": 1080,
+            "fps": 25.0,
+            "frame_count": 1201
+        },
+        "action_type": "loitering",
+        "action_spans": [
+            [
+                360,
+                950
+            ]
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Vidop With Hand Features",
+        "gflops": 1849.873470074,
+        "accuracy": 0.5
+    },
+    {
+        "name": "Vidop No Hand Features Attention",
+        "gflops": 1849.930142627,
+        "accuracy": 0.8425692695214105
+    },
+    {
+        "name": "Coop Mean",
+        "gflops": 1803.775822972,
+        "accuracy": 0.8683879093198993
+    },
+    {
+        "name": "Coop Attention",
+        "gflops": 1803.832495525,
+        "accuracy": 0.9332493702770781
+    },
+    {
+        "name": "Dual Coop Mean",
+        "gflops": 1880.767097978,
+        "accuracy": 0.9363979848866498
+    },
+    {
+        "name": "Dual Coop Attention",
+        "gflops": 1880.823770531,
+        "accuracy": 0.9319899244332494
+    },
+    {
+        "name": "Vilt Mean",
+        "gflops": 1926.246208772,
+        "accuracy": 0.8652392947103275
+    },
+    {
+        "name": "Vita",
+        "gflops": 1848.98165465,
+        "accuracy": 0.9130982367758187
+    },
+    {
+        "name": "Stt",
+        "gflops": 2338.4358664019996,
+        "accuracy": 0.9508816120906801
+    }
+]
