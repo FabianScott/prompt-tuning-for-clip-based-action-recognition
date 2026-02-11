@@ -1,11 +1,9 @@
-import sys
-from pathlib import Path
-
 if __name__ == "__main__":
-    # Find project root
-    project_root = Path(__file__).resolve().parent
-    while not (project_root / "README.md").exists() and project_root.parent != project_root:
-        project_root = project_root.parent
+    import sys
+    from pathlib import Path
+    
+    # Find project root - scripts/tables/ is 2 levels deep
+    project_root = Path(__file__).resolve().parents[2]
     sys.path.insert(0, str(project_root))
 
     from src.tables.augmentation_utils import print_augmented_results

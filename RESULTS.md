@@ -1,6 +1,6 @@
 # Prompt Tuning for CLIP-Based Action Recognition - Results
 
-**Last Updated:** 2026-02-04 14:24:12
+**Last Updated:** 2026-02-11 11:27:05
 
 This document presents comprehensive results from experiments on video action recognition using prompt tuning techniques with CLIP-based models.
 
@@ -200,6 +200,9 @@ Transfer learning from UCF101 to Kinetics400 without fine-tuning:
 | ViLt (mean) | 7.7 |
 | Vita (mean) | 2.7 |
 | STT (mean) | 10.5 |
+| ViLt-VideoMix | 5.5 |
+| ViTa-VideoMix | 7.9 |
+| STT-VideoMix | 10.9 |
 
 ### K-Shot Learning
 
@@ -239,6 +242,9 @@ Transfer learning from UCF101 to HMDB51 without fine-tuning:
 | ViLt (mean) | 18.6 |
 | Vita (mean) | 7.9 |
 | STT (mean) | 14.2 |
+| ViLt-VideoMix | 11.8 |
+| ViTa-VideoMix | 12.9 |
+| STT-VideoMix | 11.2 |
 
 ### K-Shot Learning
 

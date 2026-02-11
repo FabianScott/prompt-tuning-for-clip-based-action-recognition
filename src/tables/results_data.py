@@ -186,6 +186,9 @@ KINETICS400_ZERO_SHOT = {
     "ViLt (mean)": 7.7,
     "Vita (mean)": 2.7,
     "STT (mean)": 10.5,
+    "ViLt-VideoMix": 5.5,
+    "ViTa-VideoMix": 7.9,
+    "STT-VideoMix": 10.9,
 }
 
 # Format: [16-shot-val, 16-shot-test, 4-shot-val, 4-shot-test]
@@ -215,6 +218,9 @@ HMDB51_ZERO_SHOT = {
     "ViLt (mean)": 18.6,
     "Vita (mean)": 7.9,
     "STT (mean)": 14.2,
+    "ViLt-VideoMix": 11.8,
+    "ViTa-VideoMix": 12.9,
+    "STT-VideoMix": 11.2,
 }
 
 # Format: [16-shot-val, 16-shot-test, 4-shot-val, 4-shot-test]
@@ -225,4 +231,25 @@ HMDB51_KSHOT = {
     "Dual T (attention 1)": [72.1, 61.0, 30.5, 28.7],
     "ViLT T": [42.6, 42.1, 23.2, 26.3],
     "Vita T": [62.6, 54.6, 29.4, 27.4],
+}
+
+# UCF101 Calibration Metrics
+# Format: [nll, ece, adaptive_ece, classwise_ece, mce, brier_score]
+UCF101_CALIBRATION_METRICS = {
+    "VidOp (attention 0)": [1.7816, 0.5361, 0.5361, 0.0117, 0.6552, 0.6411],
+    "CoOp (mean)": [0.9865, 0.3760, 0.3760, 0.0081, 0.5269, 0.3769],
+    "CoOp (attention 0)": [0.3680, 0.0176, 0.0126, 0.0019, 0.1809, 0.1326],
+    "CoOp (attention 1)": [0.2867, 0.0089, 0.0060, 0.0018, 0.2341, 0.1257],
+    "CoOp (attention 2)": [0.3757, 0.0341, 0.0340, 0.0018, 0.2274, 0.1402],
+    "Dual (mean)": [1.2787, 0.4431, 0.4431, 0.0104, 0.5553, 0.5012],
+    "Dual (attention 0)": [0.4406, 0.0193, 0.0211, 0.0023, 0.3191, 0.1635],
+    "Dual (attention 1)": [0.5953, 0.0227, 0.0219, 0.0034, 0.1196, 0.2457],
+    "Dual (attention 2)": [1.0348, 0.0752, 0.0775, 0.0065, 0.1573, 0.3803],
+    "ViLt": [0.7318, 0.0709, 0.0706, 0.0030, 0.2324, 0.2688],
+    "ViTa": [0.5669, 0.1916, 0.1916, 0.0047, 0.9373, 0.2055],
+    "STT": [0.3590, 0.0358, 0.0356, 0.0018, 0.1493, 0.1442],
+    "Dual-VideoMix (attention 0)": [0.6152, 0.0935, 0.0928, 0.0045, 0.2061, 0.2336],
+    "ViLt-VideoMix": [0.6833, 0.1535, 0.1535, 0.0047, 0.2697, 0.2689],
+    "ViTa-VideoMix": [0.7796, 0.3027, 0.3026, 0.0070, 0.4010, 0.2980],
+    "STT-VideoMix": [0.4127, 0.1281, 0.1280, 0.0035, 0.3190, 0.1665],
 }

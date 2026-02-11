@@ -16,6 +16,7 @@ SCRIPTS = [
     ("train_augmented.py", "UCF101 Train with Augmentations"),
     ("individual_augmentation.py", "UCF101 Individual Augmentations"),
     ("removed_black_strip.py", "UCF101 Removed Black Strips"),
+    ("ucf101_calibration_metrics.py", "UCF101 Calibration Metrics"),
     ("distribution_tables.py", "Class Distribution Analysis"),
     ("kinetics400_zero_shot.py", "Kinetics400 Zero-shot"),
     ("kinetics400_kshot.py", "Kinetics400 K-shot"),
