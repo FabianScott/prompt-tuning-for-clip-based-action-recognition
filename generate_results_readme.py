@@ -313,6 +313,37 @@ def get_explainer_figures() -> Dict[str, List[str]]:
     return figures
 
 
+def get_model_configs() -> Dict[str, List[str]]:
+    """Get UCF101 model configuration files organized by model architecture."""
+    configs = {}
+    configs_dir = PROJECT_ROOT / "models" / "trained_configs"
+    
+    if configs_dir.exists():
+        for model_dir in sorted(configs_dir.iterdir()):
+            if model_dir.is_dir():
+                model_name = model_dir.name
+                configs[model_name] = []
+                
+                # Get all UCF101 config files
+                for config_file in sorted(model_dir.glob("*ucf101*.json")):
+                    rel_path = config_file.relative_to(PROJECT_ROOT)
+                    configs[model_name].append({
+                        "path": str(rel_path),
+                        "name": config_file.stem
+                    })
+                
+                # Also include the base ucf101.json if it exists
+                base_config = model_dir / "ucf101.json"
+                if base_config.exists():
+                    rel_path = base_config.relative_to(PROJECT_ROOT)
+                    configs[model_name].insert(0, {
+                        "path": str(rel_path),
+                        "name": "ucf101 (base)"
+                    })
+    
+    return configs
+
+
 def generate_readme() -> str:
     """Generate the complete README content."""
     
@@ -503,6 +534,28 @@ Model calibration analysis showing confidence vs. accuracy:
         readme += "</table>\n\n"
     
     readme += """
+---
+
+## Model Configurations
+
+All trained model configurations for UCF101 are available in the [`models/trained_configs`](models/trained_configs) directory.
+
+### Configuration Files by Architecture
+
+"""
+    
+    # Add model configs section
+    model_configs = get_model_configs()
+    for model_arch, configs in sorted(model_configs.items()):
+        if configs:
+            readme += f"\n**{model_arch.upper()}** ({len(configs)} configuration{'s' if len(configs) != 1 else ''})\n\n"
+            for config in configs:
+                readme += f"- [{config['name']}]({config['path']})\n"
+            readme += "\n"
+    
+    readme += f"""
+**Total Configurations**: {sum(len(configs) for configs in model_configs.values())} model and dataset configs for UCF101
+
 ---
 
 ## Summary of Key Findings

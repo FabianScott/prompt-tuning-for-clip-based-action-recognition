@@ -1,0 +1,13 @@
+{
+    "batch-size": 4,
+    "num-workers": 4,
+    "batches-per-backprop": 32, 
+    "split-file": "",
+    "K-train": null,
+    "K-val": null,
+    "split-function": "",
+    "random-seed": 42,
+    "has-validation": true,
+    "use-cache": false,
+    "save-to-cache": false
+}

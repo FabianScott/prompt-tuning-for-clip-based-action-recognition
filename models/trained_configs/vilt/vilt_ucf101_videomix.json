@@ -1,0 +1,361 @@
+{
+  "clip-model": "openai/clip-vit-base-patch16",
+  "ctx-len": 8,
+  "ctx-len-video": 8,
+  "class-wise": false,
+  "lr": 8e-05,
+  "weight-decay": 0.01,
+  "std-init": 0.02,
+  "num-temporal-views": 4,
+  "num-spatial-views": 3,
+  "num-frames-temporal": 8,
+  "regularisation-strength": 0.1,
+  "regularisation-text": "A video of a person doing",
+  "cosine-regularisation-strength": 0.0,
+  "use-handcrafted-features": false,
+  "keep-vision-prompts-throughout": false,
+  "temporal-pooling": "mean",
+  "num-heads-attention-pooling": 1,
+  "num-frames": null,
+  "has-discriminative-conditioning": false,
+  "space-between-frames": null,
+  "epochs": 30,
+  "start-train-step": 0,
+  "epochs-to-skip": 0,
+  "save-every-n-steps": 10000000000.0,
+  "continue-from": null,
+  "grad-norm-max": 1.0,
+  "loss-function": "cross-entropy",
+  "dataset-config": {
+    "batch-size": 4,
+    "num-workers": 2,
+    "batches-per-backprop": 32,
+    "split-file": "",
+    "K-train": null,
+    "K-val": null,
+    "K-test": null,
+    "split-function": "",
+    "random-seed": 42,
+    "has-validation": true,
+    "use-cache": false,
+    "resized-cache-protocol": null,
+    "save-to-cache": false,
+    "class-protocol": "all",
+    "num-classes": null,
+    "use-excess-for": "none",
+    "remove-class-if-insufficient": false,
+    "class-weights": null,
+    "skip-first-K-train": 0,
+    "skip-first-K-val": 0,
+    "val-proportion": 0.2,
+    "use-clips": false
+  },
+  "use-checkpointing": false,
+  "debug": false,
+  "use-profiling": false,
+  "use-fresh-lr-scheduler": true,
+  "learn-just-pooling": false,
+  "checkpoint-last-n": 12,
+  "log-every-n-steps": 10,
+  "early-stop-patience": 3,
+  "training-history": {
+    "train-acc": [
+      0.05034612964128383,
+      0.1671491504090623,
+      0.26897419760855884,
+      0.39181875393329135,
+      0.41535556954059155,
+      0.4463184392699811,
+      0.48860918816865956,
+      0.5136563876651983,
+      0.5342983008181246,
+      0.5556954059156702,
+      0.5582127123977344,
+      0.5709251101321586,
+      0.5864065449968534,
+      0.5910635619886722,
+      0.6161107614852108,
+      0.6176211453744493,
+      0.6273127753303964,
+      0.6274386406544997,
+      0.6398993077407175,
+      0.6572687224669603,
+      0.645689112649465,
+      0.6616740088105727,
+      0.658275645059786,
+      0.6814348646947765,
+      0.6779106356198867,
+      0.6742605412208936,
+      0.6913782252989301,
+      0.6923851478917559,
+      0.6902454373820013,
+      0.6956576463184393
+    ],
+    "train-loss": [
+      6.495696487570799,
+      3.8403400822057896,
+      3.42959900094399,
+      3.0110958149779736,
+      2.892159229468219,
+      2.7639594969320327,
+      2.6418984030837005,
+      2.5359225043266207,
+      2.4786296904499685,
+      2.397928630427942,
+      2.343990422435494,
+      2.299508584408433,
+      2.249308969870988,
+      2.2260681344398994,
+      2.1644774622404026,
+      2.142831330632473,
+      2.1141168285871617,
+      2.0937635206891128,
+      2.0754321703901826,
+      2.0349014464679045,
+      2.031617762743864,
+      2.0031583100613592,
+      2.000326709015104,
+      1.96097634125236,
+      1.926438847152297,
+      1.9476974266441158,
+      1.9210179112256136,
+      1.9222421481670862,
+      1.916370850377596,
+      1.9170585617920075
+    ],
+    "val-acc": [
+      0.15491183879093198,
+      0.2795969773299748,
+      0.4981108312342569,
+      0.5591939546599496,
+      0.5994962216624685,
+      0.6379093198992444,
+      0.6769521410579346,
+      0.7210327455919395,
+      0.7191435768261965,
+      0.6977329974811083,
+      0.7279596977329975,
+      0.7443324937027708,
+      0.7726700251889169,
+      0.7940806045340051,
+      0.7953400503778337,
+      0.8054156171284634,
+      0.8117128463476071,
+      0.820528967254408,
+      0.8299748110831234,
+      0.8337531486146096,
+      0.8438287153652393,
+      0.8387909319899244,
+      0.8507556675062973,
+      0.8564231738035264,
+      0.8602015113350125,
+      0.8633501259445844,
+      0.8614609571788413,
+      0.8664987405541562,
+      0.8677581863979849,
+      0.8696473551637279
+    ],
+    "val-loss": [
+      3.8107502900383032,
+      2.958913901628415,
+      2.1481402214776057,
+      1.808975229166467,
+      1.7543302039270963,
+      1.4463013597577576,
+      1.2669404891345377,
+      1.3051650447287697,
+      1.1520076633421634,
+      1.0673511541854375,
+      1.0105969058420106,
+      1.001462563365623,
+      0.9261208641195027,
+      0.8944541696383986,
+      0.84159119236717,
+      0.7747642274861521,
+      0.7225076249831119,
+      0.6920843917914017,
+      0.6953890912131564,
+      0.7179047759125005,
+      0.6451992218943327,
+      0.6517589572742019,
+      0.6246054879241911,
+      0.6412299273990714,
+      0.5894025259719274,
+      0.5873537425219224,
+      0.5873956531661584,
+      0.5768330661082636,
+      0.5803140494081025,
+      0.5852446826245232
+    ]
+  },
+  "fp16": false,
+  "grad-scaler-config": {
+    "init-scale": 8192,
+    "growth-factor": 2.0,
+    "backoff-factor": 0.5,
+    "growth-interval": 100
+  },
+  "activation-clamp-value": 10000.0,
+  "videomix-type": "spatial",
+  "videomix-prob": 1,
+  "use-augmentation": false,
+  "method-name": "vilt",
+  "num-tokens-per-layer-text": 4,
+  "num-tokens-per-layer-vision": 4,
+  "modality-transfer-text": [
+    [
+      [
+        0
+      ],
+      []
+    ],
+    [
+      [
+        1
+      ],
+      []
+    ],
+    [
+      [
+        2
+      ],
+      []
+    ],
+    [
+      [
+        3
+      ],
+      []
+    ],
+    [
+      [
+        4
+      ],
+      []
+    ],
+    [
+      [],
+      [
+        5
+      ]
+    ],
+    [
+      [],
+      [
+        6
+      ]
+    ],
+    [
+      [],
+      [
+        7
+      ]
+    ],
+    [
+      [],
+      [
+        8
+      ]
+    ],
+    [
+      [],
+      [
+        9
+      ]
+    ],
+    [
+      [],
+      []
+    ],
+    [
+      [],
+      []
+    ]
+  ],
+  "modality-transfer-vision": [
+    [
+      [],
+      [
+        0
+      ]
+    ],
+    [
+      [],
+      [
+        1
+      ]
+    ],
+    [
+      [],
+      [
+        2
+      ]
+    ],
+    [
+      [],
+      [
+        3
+      ]
+    ],
+    [
+      [],
+      [
+        4
+      ]
+    ],
+    [
+      [
+        5
+      ],
+      []
+    ],
+    [
+      [
+        6
+      ],
+      []
+    ],
+    [
+      [
+        7
+      ],
+      []
+    ],
+    [
+      [
+        8
+      ],
+      []
+    ],
+    [
+      [
+        9
+      ],
+      []
+    ],
+    [
+      [],
+      []
+    ],
+    [
+      [],
+      []
+    ]
+  ],
+  "prompt-optimisation-method": "vilt",
+  "dataset": "ucf101",
+  "data-dir": "/work3/fasco/data/raw/datasets/pevogam/ucf101/versions/1/UCF101/UCF-101",
+  "model": "openai/clip-vit-base-patch16",
+  "K-train": null,
+  "K-val": null,
+  "K-test": null,
+  "val-examples-per-class": null,
+  "batch-size": 4,
+  "out": "/work3/fasco/data/processed/prompts/vilt/ucf101",
+  "num-workers": 2,
+  "re-process-data": false,
+  "use-wandb": true,
+  "num-head-attention-pooling": 1,
+  "N-text-layers": 12,
+  "N-vision-layers": 12
+}
