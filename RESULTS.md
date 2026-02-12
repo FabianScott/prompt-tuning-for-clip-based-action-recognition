@@ -1,6 +1,6 @@
 # Prompt Tuning for CLIP-Based Action Recognition - Results
 
-**Last Updated:** 2026-02-12 09:52:59
+**Last Updated:** 2026-02-12 10:14:00
 
 This document presents comprehensive results from experiments on video action recognition using prompt tuning techniques with CLIP-based models.
 
@@ -413,60 +413,60 @@ All trained model configurations for UCF101 are available in the [`models/traine
 
 **DUAL_COOP** (7 configurations)
 
-- [ucf101 (base)](models/trained_configs/dual_coop/ucf101.json)
-- [dual_coop_ucf101_best-attention-0](models/trained_configs/dual_coop/dual_coop_ucf101_best-attention-0.json)
-- [dual_coop_ucf101_best-attention-1](models/trained_configs/dual_coop/dual_coop_ucf101_best-attention-1.json)
-- [dual_coop_ucf101_best-attention-2](models/trained_configs/dual_coop/dual_coop_ucf101_best-attention-2.json)
-- [dual_coop_ucf101_best-mean](models/trained_configs/dual_coop/dual_coop_ucf101_best-mean.json)
-- [dual_coop_ucf101_videomix-attention-0](models/trained_configs/dual_coop/dual_coop_ucf101_videomix-attention-0.json)
-- [ucf101](models/trained_configs/dual_coop/ucf101.json)
+- [ucf101 (base)](models/configs/dual_coop/ucf101.json)
+- [dual_coop_ucf101_best-attention-0](models/configs/dual_coop/dual_coop_ucf101_best-attention-0.json)
+- [dual_coop_ucf101_best-attention-1](models/configs/dual_coop/dual_coop_ucf101_best-attention-1.json)
+- [dual_coop_ucf101_best-attention-2](models/configs/dual_coop/dual_coop_ucf101_best-attention-2.json)
+- [dual_coop_ucf101_best-mean](models/configs/dual_coop/dual_coop_ucf101_best-mean.json)
+- [dual_coop_ucf101_videomix-attention-0](models/configs/dual_coop/dual_coop_ucf101_videomix-attention-0.json)
+- [ucf101](models/configs/dual_coop/ucf101.json)
 
 
 **STT** (4 configurations)
 
-- [ucf101 (base)](models/trained_configs/stt/ucf101.json)
-- [stt_ucf101_best-true-val](models/trained_configs/stt/stt_ucf101_best-true-val.json)
-- [stt_ucf101_videomix](models/trained_configs/stt/stt_ucf101_videomix.json)
-- [ucf101](models/trained_configs/stt/ucf101.json)
+- [ucf101 (base)](models/configs/stt/ucf101.json)
+- [stt_ucf101_best-mean](models/configs/stt/stt_ucf101_best-mean.json)
+- [stt_ucf101_videomix](models/configs/stt/stt_ucf101_videomix.json)
+- [ucf101](models/configs/stt/ucf101.json)
 
 
 **VIDEO_COOP** (6 configurations)
 
-- [ucf101 (base)](models/trained_configs/video_coop/ucf101.json)
-- [ucf101](models/trained_configs/video_coop/ucf101.json)
-- [video_coop_ucf101_best-attention-0](models/trained_configs/video_coop/video_coop_ucf101_best-attention-0.json)
-- [video_coop_ucf101_best-attention-1](models/trained_configs/video_coop/video_coop_ucf101_best-attention-1.json)
-- [video_coop_ucf101_best-attention-2](models/trained_configs/video_coop/video_coop_ucf101_best-attention-2.json)
-- [video_coop_ucf101_best-mean](models/trained_configs/video_coop/video_coop_ucf101_best-mean.json)
+- [ucf101 (base)](models/configs/video_coop/ucf101.json)
+- [ucf101](models/configs/video_coop/ucf101.json)
+- [video_coop_ucf101_best-attention-0](models/configs/video_coop/video_coop_ucf101_best-attention-0.json)
+- [video_coop_ucf101_best-attention-1](models/configs/video_coop/video_coop_ucf101_best-attention-1.json)
+- [video_coop_ucf101_best-attention-2](models/configs/video_coop/video_coop_ucf101_best-attention-2.json)
+- [video_coop_ucf101_best-mean](models/configs/video_coop/video_coop_ucf101_best-mean.json)
 
 
 **VIDOP** (6 configurations)
 
-- [ucf101 (base)](models/trained_configs/vidop/ucf101.json)
-- [ucf101](models/trained_configs/vidop/ucf101.json)
-- [vidop_ucf101_best-no-hand-features-attention-0](models/trained_configs/vidop/vidop_ucf101_best-no-hand-features-attention-0.json)
-- [vidop_ucf101_best-no-hand-features-true-val](models/trained_configs/vidop/vidop_ucf101_best-no-hand-features-true-val.json)
-- [vidop_ucf101_best-with-hand-features-true-val](models/trained_configs/vidop/vidop_ucf101_best-with-hand-features-true-val.json)
-- [vidop_ucf101_ep-20](models/trained_configs/vidop/vidop_ucf101_ep-20.json)
+- [ucf101 (base)](models/configs/vidop/ucf101.json)
+- [ucf101](models/configs/vidop/ucf101.json)
+- [vidop_ucf101_best-no-hand-features-attention-0](models/configs/vidop/vidop_ucf101_best-no-hand-features-attention-0.json)
+- [vidop_ucf101_best-no-hand-features-mean](models/configs/vidop/vidop_ucf101_best-no-hand-features-mean.json)
+- [vidop_ucf101_best-with-hand-features-attention-0](models/configs/vidop/vidop_ucf101_best-with-hand-features-attention-0.json)
+- [vidop_ucf101_best-with-hand-features-mean](models/configs/vidop/vidop_ucf101_best-with-hand-features-mean.json)
 
 
 **VILT** (4 configurations)
 
-- [ucf101 (base)](models/trained_configs/vilt/ucf101.json)
-- [ucf101](models/trained_configs/vilt/ucf101.json)
-- [vilt_ucf101_best-mean](models/trained_configs/vilt/vilt_ucf101_best-mean.json)
-- [vilt_ucf101_videomix](models/trained_configs/vilt/vilt_ucf101_videomix.json)
+- [ucf101 (base)](models/configs/vilt/ucf101.json)
+- [ucf101](models/configs/vilt/ucf101.json)
+- [vilt_ucf101_best-mean](models/configs/vilt/vilt_ucf101_best-mean.json)
+- [vilt_ucf101_videomix](models/configs/vilt/vilt_ucf101_videomix.json)
 
 
 **VITA** (4 configurations)
 
-- [ucf101 (base)](models/trained_configs/vita/ucf101.json)
-- [ucf101](models/trained_configs/vita/ucf101.json)
-- [vita_ucf101_ep-16](models/trained_configs/vita/vita_ucf101_ep-16.json)
-- [vita_ucf101_videomix](models/trained_configs/vita/vita_ucf101_videomix.json)
+- [ucf101 (base)](models/configs/vita/ucf101.json)
+- [ucf101](models/configs/vita/ucf101.json)
+- [vita_ucf101_beat-mean](models/configs/vita/vita_ucf101_beat-mean.json)
+- [vita_ucf101_videomix](models/configs/vita/vita_ucf101_videomix.json)
 
 
-**Total Configurations**: 31 model configs for UCF101
+**Total Configurations**: 31 model and dataset configs for UCF101
 
 ---
 
