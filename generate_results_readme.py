@@ -316,7 +316,7 @@ def get_explainer_figures() -> Dict[str, List[str]]:
 def get_model_configs() -> Dict[str, List[str]]:
     """Get UCF101 model configuration files organized by model architecture."""
     configs = {}
-    configs_dir = PROJECT_ROOT / "models" / "trained_configs"
+    configs_dir = PROJECT_ROOT / "models" / "configs"
     
     if configs_dir.exists():
         for model_dir in sorted(configs_dir.iterdir()):
