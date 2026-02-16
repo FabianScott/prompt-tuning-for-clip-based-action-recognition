@@ -523,3 +523,5 @@ See [scripts/tables/README.md](scripts/tables/README.md) for complete documentat
 ```bash
 python generate_results_readme.py
 ```
+
+To train your own models look through the README's in the scripts folder for how to install datasets, train and evaluate models.
